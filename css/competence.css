@@ -1,0 +1,66 @@
+      /* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Titre principal */
+h1 {
+    color: #4CAF50;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Titres des domaines */
+h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+/* Style des éléments de compétence */
+.competence-item {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+/* Titre de chaque compétence */
+.competence-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Style du niveau de compétence */
+.competence-level {
+    margin-left: 15px;
+}
+
+/* Barre de progression */
+.competence-level div {
+    margin-top: 5px;
+}
+
+.competence-level div div {
+    height: 10px;
+    border-radius: 5px;
+}
+
+/* Style des étoiles */
+.competence-level {
+    font-size: 1.2rem;
+    color: #f39c12;
+}
+
+/* Style des étoiles pleines et vides */
+.competence-level .star-filled {
+    color: #f39c12; /* Étoile pleine (jaune) */
+}
+
+.competence-level .star-empty {
+    color: #ccc; /* Étoile vide (gris clair) */
+}
