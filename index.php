@@ -19,7 +19,7 @@
 </html>
 
 <?php
-
+echo "nimpote"; 
 require_once("yaml\yaml.php");
 $data=yaml_parse_file('fichieryaml/Acceuil.yaml');
 
